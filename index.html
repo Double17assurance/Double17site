@@ -6,80 +6,98 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      color: #000000;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('logo-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #000;
     }
     header {
-      background-color: #000000;
-      color: #ffd700;
+      background-color: #000;
+      color: #d4af37;
       padding: 1rem;
       text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
     }
     nav {
-      background-color: #ffffff;
+      background-color: #222;
       display: flex;
       justify-content: center;
       gap: 2rem;
-      padding: 1rem;
-      border-bottom: 1px solid #ddd;
+      padding: 0.8rem;
     }
     nav a {
-      color: #000000;
+      color: white;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #d4af37;
     }
     section {
-      padding: 2rem;
+      padding: 3rem 1rem;
       max-width: 900px;
-      margin: auto;
+      margin: 0 auto;
     }
     section img {
       max-width: 100%;
-      border-radius: 1rem;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 12px;
     }
     footer {
+      background-color: #000;
+      color: white;
+      padding: 2rem;
       text-align: center;
-      padding: 1rem;
-      background-color: #000000;
-      color: #ffffff;
-      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Double 17 Assurance</h1>
+    <img src="logo.png" alt="Logo Double 17" style="height: 80px;">
+    <div>Double 17 Assurance</div>
   </header>  <nav>
     <a href="#accueil">Accueil</a>
-    <a href="#a-propos">À propos</a>
+    <a href="#apropos">À propos</a>
     <a href="#services">Nos services</a>
     <a href="#contact">Contact</a>
     <a href="#mentions">Mentions légales</a>
   </nav>  <section id="accueil">
     <h2>Bienvenue chez Double 17 Assurance</h2>
-    <p>Votre partenaire de confiance pour protéger ce qui compte le plus. Professionnalisme, écoute et accompagnement personnalisé sont au cœur de notre engagement.</p>
-  </section>  <section id="a-propos">
+    <p>
+      Votre partenaire de confiance pour protéger ce qui compte le plus. Professionnalisme, écoute et accompagnement personnalisé sont au cœur de notre engagement.
+    </p>
+  </section>  <section id="apropos">
     <h2>À propos</h2>
-    <p>Double 17 Assurance est née d'une volonté simple : vous offrir une approche humaine, claire et efficace de l'assurance. Notre priorité est de vous accompagner avec transparence et proximité dans toutes les étapes de votre vie.</p>
-    <img src="photo-de-famille.jpg" alt="Photo de la famille" />
+    <p>
+      Double 17 Assurance est née d'une volonté simple : vous offrir une approche humaine, claire et efficace de l'assurance. Notre priorité est de vous accompagner avec transparence et proximité dans toutes les étapes de votre vie.
+    </p>
+    <img src="photo-famille.jpg" alt="Photo de la famille">
   </section>  <section id="services">
     <h2>Nos services</h2>
-    <p>Nous vous proposons une gamme complète de solutions : assurance auto, habitation, santé, prévoyance, professionnelle et bien plus encore. Chaque offre est pensée pour s’adapter à vos besoins spécifiques.</p>
+    <p>
+      Nous vous proposons une gamme complète de solutions : assurance auto, habitation, santé, prévoyance, professionnelle et bien plus encore. Chaque offre est pensée pour s'adapter à vos besoins spécifiques.
+    </p>
   </section>  <section id="contact">
     <h2>Contact</h2>
-    <p>Maximilien Costeseque<br>
-       Tél : 06.16.83.76.10<br>
-       Email : doubledixsept@gmail.com<br>
-       Adresse : Route de Saint-Dézéry, 30190 Collorgues</p>
+    <p>
+      Maximilien Costeseque<br>
+      Téléphone : 06.16.83.76.10<br>
+      Email : doubledixsept@gmail.com<br>
+      Adresse : Route de Saint-Dézéry, 30190 Collorgues
+    </p>
   </section>  <section id="mentions">
     <h2>Mentions légales</h2>
-    <p>Double 17 Assurance<br>
-       Siège social : Route de Saint-Dézéry, 30190 Collorgues<br>
-       Email : doubledixsept@gmail.com<br>
-       Téléphone : 06.16.83.76.10</p>
+    <p>
+      Double 17 Assurance<br>
+      Siège social : Route de Saint-Dézéry, 30190 Collorgues<br>
+      SIRET : [à compléter]<br>
+      Directeur de la publication : Maximilien Costeseque<br>
+      Hébergeur : Vercel, 440 N Barranca Ave #4133, Covina, CA 91723, USA
+    </p>
   </section>  <footer>
-    &copy; 2025 Double 17 Assurance. Tous droits réservés.
+    &copy; 2024 Double 17 Assurance - Tous droits réservés
   </footer>
 </body>
 </html>
